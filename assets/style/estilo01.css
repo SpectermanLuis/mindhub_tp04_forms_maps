@@ -200,122 +200,6 @@ dd {
 }
 
 
-/* Media pantalla chicas */
-/*@media only screen and (min-width: 320px) and (max-width: 767px) {*/
-@media only screen and (min-width: 320px) and (max-width: 1023px) {
-
-  header {
-    flex-direction: column;
-  }
-
-  .barra-superior {
-    flex-direction: column;
-  }
-
-  .nombre_club {
-    font-size: 30px;
-    left: 5px;
-  }
-
-  nav {
-    flex-direction: column;
-    transform: translateX(0px);
-    width: 100%;
-    align-items: center;
-  }
-
- nav a {
-  width: 6rem;
- } 
-  .nav-enlace {
-    padding: 2px 3px;
-    border: 1px solid black;
-    font-size: 1rem;
-    margin: 1px;
-  }
-
-  .imagen_header {
-    width: 95%;
-    height: 135px;
-    padding: 2px;
-  }
-
-  main {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  aside {
-    flex-direction: column;
-    width: 50%;
-  }
-
-  .titulo_pagina {
-    width: 94%;
-
-    transform: translatex(0.1rem);
-  }
-
-  .seccion {
-    width: 85%;
-  }
-
-  section {
-    padding-left:2.5rem;
-    padding-right:0.2rem;
-  }
-
-  footer {
-    padding: 0.5rem;
-  }
-
-  .table-date {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .align-right {
-    width: 25%;
-  }
-
-  .align-left {
-    width: 25%;
-  }
-
-  .game-info-contacto {
-    flex-direction: column;
-  }
-
-  .game-info-contacto.p {
-    height: 20px;
-  }
-
-  .input-form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0.1rem;
-    padding: 0.4rem;
-    flex-wrap: wrap;
-  }
-
-  .bloquecito {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .map-container {
-    flex-direction: column;
-  }
-  
- .map h2{
-  width: 20rem;
- } 
-
-}
-/* Fin Media pantalla chicas */
-
-
 /* Para el Formulario */
 .container {
   max-width: 100%;
@@ -467,3 +351,122 @@ input[type="radio"] {
   border: 1px solid #ccc;
 }
 /* fin Contenedor para los mapas en gameinfo.html */
+
+
+
+/* Media pantalla chicas */
+/*@media only screen and (min-width: 320px) and (max-width: 767px) {*/
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+
+  header {
+    flex-direction: column;
+  }
+
+  .barra-superior {
+    flex-direction: column;
+  }
+
+  .nombre_club {
+    font-size: 30px;
+    left: 5px;
+  }
+
+  nav {
+    flex-direction: column;
+    transform: translateX(0px);
+    width: 100%;
+    align-items: center;
+  }
+
+ nav a {
+  width: 6rem;
+ } 
+  .nav-enlace {
+    padding: 2px 3px;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin: 1px;
+  }
+
+  .imagen_header {
+    width: 95%;
+    height: 135px;
+    padding: 2px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .titulo_pagina {
+    width: 94%;
+
+    transform: translatex(0.1rem);
+  }
+
+  .seccion {
+    width: 85%;
+  }
+
+  section {
+    padding-left:2.5rem;
+    padding-right:0.2rem;
+  }
+
+  footer {
+    padding: 0.5rem;
+  }
+
+  .table-date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .align-right {
+    width: 25%;
+  }
+
+  .align-left {
+    width: 25%;
+  }
+
+  .game-info-contacto {
+    flex-direction: column;
+  }
+
+  .game-info-contacto.p {
+    height: 20px;
+  }
+
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.1rem;
+    padding: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .bloquecito {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .map-container {
+    flex-direction: column;
+  }
+  
+ .map h2{
+  width: 20rem;
+ } 
+
+}
+/* Fin Media pantalla chicas */
+
+

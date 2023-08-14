@@ -427,17 +427,29 @@ select {
   flex-wrap: wrap;
 }
 
-
 input[type="checkbox"] {
-height: 18px;
+height:1.5rem;
   }
 
 input[type="checkbox"] + label {
 padding-right: 0px;
-padding-left: 12px;
-width: 102px;
-height: 20px;
+padding-left: 1rem;
+width: 5rem;
+height: 1.5rem;
 }
+
+input[type="radio"] {
+  height:1.5rem;
+    }
+  
+  input[type="radio"] + label {
+  padding-right: 0px;
+  padding-left: 1rem;
+  width: 5rem;
+  height: 1.5rem;
+  }
+  
+
 /* Fin Formulario */
 
 

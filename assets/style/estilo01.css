@@ -203,7 +203,7 @@ dd {
 /* Para el Formulario */
 .container {
   max-width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   background-color: #fff;
   border-radius: 5px;
   margin-top: 0rem;
@@ -333,6 +333,10 @@ input[type="radio"] {
   height: 1.5rem;
   }
   
+
+form h3{
+  margin-top: 1.5rem;
+}
 
 /* Fin Formulario */
 

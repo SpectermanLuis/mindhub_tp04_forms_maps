@@ -470,6 +470,9 @@ form h3{
   width: 20rem;
  } 
 
+ input[id="address"] {
+  width: 20rem;
+}
 }
 /* Fin Media pantalla chicas */
 
